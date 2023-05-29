@@ -30,8 +30,20 @@ header ul{
  background-color:#6B77E5;
 }
 .pages{
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.blog{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.about{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.services{
+    padding-left: 20px;
+    padding-right: 20px;
 }
 main .div1{
     display: flex;
@@ -39,6 +51,7 @@ main .div1{
     margin-right: 150px;
     justify-content: space-around;
     text-align: center;
+    margin-bottom: 50px;
 }
 .section1{
     background-color:#F4F4F4;
@@ -51,6 +64,7 @@ main .div1{
     margin-right: 20px;
     padding-left: 40px;
     padding-bottom: 40px;
+    padding-top: 40px;
 }
 .section3{
     background-color:#F4F4F4;
@@ -73,7 +87,8 @@ h4{
 }
 .div2{
     text-align: center;
-    background-color:#40DDB6BF;
+    background-image: url(iframe/image/Rectangle\ 290.png);
+    background-size: cover;
 }
 .div2 h5{
     padding-top: 140px;
@@ -87,4 +102,47 @@ h4{
 }
 .div2 {
     padding-bottom: 100px;
+}
+.div3{
+    text-align: center;
+    padding-top: 50px;
+    margin-top: 20px;
+}
+.div4{
+    display: flex;
+    margin-left:150PX;
+    padding-bottom: 50px;
+}
+.section4{
+    display: flex;
+    background-image: url(iframe/image/Photo.png);
+    background-repeat: no-repeat;
+    padding-top: 400px;
+    background-size: contain;
+    margin-top: 100px;
+    text-align: center;
+    padding-bottom: 50px;
+   
+}
+.section5{
+    display:flex;
+    background-image: url(iframe/image/david.png);
+    background-repeat: no-repeat;   
+    padding-top: 400px;
+    margin-top: 100px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-size: contain;
+}
+.section6{
+    display:flex;
+    background-image: url(iframe/image/gront.png);
+    background-repeat: no-repeat;   
+    padding-top: 400px;
+    margin-top: 100px;
+    text-align: center;
+    background-size: contain;
 }
