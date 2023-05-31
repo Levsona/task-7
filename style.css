@@ -20,14 +20,15 @@ header{
 }
 header nav {
     display: flex;
-    justify-content: space-around; 
+    margin-top: 15px;
+    color: white;
 }
 header ul{
     display: flex;
-    justify-content: space-around;
 }
 .get{
  background-color:#6B77E5;
+padding: 15px 30px 15px 30px;
 }
 .pages{
     padding-left: 20px;
@@ -112,37 +113,71 @@ h4{
     display: flex;
     margin-left:150PX;
     padding-bottom: 50px;
+    justify-content: space-around;
+    margin-right: 150px;
+    padding-bottom: 100px;
 }
 .section4{
     display: flex;
     background-image: url(iframe/image/Photo.png);
     background-repeat: no-repeat;
-    padding-top: 400px;
+    padding-top: 300px;
     background-size: contain;
     margin-top: 100px;
     text-align: center;
-    padding-bottom: 50px;
-   
+    padding-left: 50px;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-right: 50px;
+    
 }
 .section5{
     display:flex;
     background-image: url(iframe/image/david.png);
     background-repeat: no-repeat;   
-    padding-top: 400px;
-    margin-top: 100px;
+    padding-top: 300px;
+    margin-top: 100px; 
     text-align: center;
-    margin-left: 50px;
-    margin-right: 50px;
     padding-left: 50px;
     padding-right: 50px;
     background-size: contain;
+    flex-direction: column;
+   
 }
 .section6{
     display:flex;
     background-image: url(iframe/image/gront.png);
     background-repeat: no-repeat;   
-    padding-top: 400px;
+    padding-top: 300px;
     margin-top: 100px;
     text-align: center;
     background-size: contain;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-right: 50px;
+    /* padding-bottom: 600px; */
+}
+.section5 p{
+    background-color: #F4F4F4;
+   
+}
+.section5 h1{
+    background-color: aliceblue;
+    padding: 10px 10px 10px 10px;
+}
+.section4 p{
+    background-color: #F4F4F4;
+    margin-bottom: 10px;
+}
+.section4 h1{
+    padding: 10px 10px 10px 10px;
+    background-color: #F4F4F4;
+}
+.section6 p{
+    background-color: #F4F4F4;
+    
+}
+.section6 h1{
+    padding: 10px 10px 10px 10px;
+    background-color: #F4F4F4;
 }
