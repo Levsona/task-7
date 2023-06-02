@@ -21,10 +21,13 @@ header{
 header nav {
     display: flex;
     margin-top: 15px;
-    color: white;
 }
 header ul{
     display: flex;
+}
+ul a{
+    color: #37393F;
+
 }
 .get{
  background-color:#6B77E5;
@@ -163,14 +166,14 @@ h4{
 }
 .section5 h1{
     background-color: aliceblue;
-    padding: 10px 10px 10px 10px;
+    padding: 10px 20px 10px 20px;
 }
 .section4 p{
     background-color: #F4F4F4;
     margin-bottom: 10px;
 }
 .section4 h1{
-    padding: 10px 10px 10px 10px;
+    padding: 10px 20px 10px 20px;
     background-color: #F4F4F4;
 }
 .section6 p{
@@ -178,6 +181,6 @@ h4{
     
 }
 .section6 h1{
-    padding: 10px 10px 10px 10px;
+    padding: 10px 20px 10px 20px;
     background-color: #F4F4F4;
 }
